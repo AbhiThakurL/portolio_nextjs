@@ -55,7 +55,7 @@ export default function SkillsSection() {
       { name: "CSS3", src: "/CSS3.svg" },
       { name: "React", src: "/React.svg" },
       { name: "Node", src: "/Node.js.svg" },
-      { name: "JS", src: "/javascript.svg" },
+      { name: "JS", src: "/Javascript.svg" },
       { name: "CSS", src: "/Tailwind CSS.svg" },
     ],
     []
@@ -63,7 +63,7 @@ export default function SkillsSection() {
 
   const bottomIcons = useMemo(
     () => [
-      { name: "Nuxt JS", src: "/Nuxt Js.svg" },
+      { name: "Nuxt JS", src: "/next.svg" },
       { name: "Typescript", src: "/TypeScript.svg" },
       { name: "Python", src: "/Python.svg" },
       { name: "Java", src: "/Java.svg" },
