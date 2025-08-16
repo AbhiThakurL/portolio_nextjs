@@ -95,14 +95,14 @@ export default function Projects() {
       title: "Example Project",
       tag: "Featured Project",
       image: "/project1.png",
-      desc: "A web app for visualizing personalized Spotify data...",
+      desc: "A web app for visualizing personalized Spotify data A web app for visualizing personalized Spotify data A web app for visualizing personalized Spotify data ",
     },
     {
       side: "right",
       title: "Example Project",
       tag: "Featured Project",
       image: "/project2.png",
-      desc: "A modern dashboard for analyzing your Spotify profile...",
+      desc: "A modern dashboard for analyzing your Spotify profile  modern dashboard for analyzing your Spotify profile  modern dashboard for analyzing your Spotify profile......",
     },
   ];
 

@@ -2,6 +2,13 @@
 import Image from "next/image";
 import { useMemo } from "react";
 
+// --- Types ---
+type IconChipProps = {
+  src: string;   // path to the image
+  alt: string;   // alt text
+  size: number;  // chip size (px)
+};
+
 // --- Responsive Layout Hook ---
 function useLayout() {
   let w = 1280;
@@ -18,7 +25,7 @@ function useLayout() {
 }
 
 // --- Reusable Icon Chip Component ---
-function IconChip({ src, alt, size }) {
+function IconChip({ src, alt, size }: IconChipProps) {
   return (
     <div
       className="rounded-full bg-[#231346] shadow-[0_4px_16px_rgba(112,80,255,0.18)] flex items-center justify-center  transition-all duration-300 ease-out
