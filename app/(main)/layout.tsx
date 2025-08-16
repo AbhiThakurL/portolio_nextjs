@@ -1,11 +1,7 @@
-import type { Metadata } from "next"
 import { Navbar } from "./header/header"
 import Footer from "./footer/footer"
 
-export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "My personal portfolio built with Next.js",
-}
+
 
 export default function RootLayout({
   children,
@@ -13,8 +9,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en"> 
-      <body className="min-h-screen bg-[#0b0217] text-white antialiased bg-gradient-to-br from-[#0b0717] via-[#120a24] to-[#0b0717]">
+      <div className="min-h-screen bg-[#0b0217] text-white antialiased bg-gradient-to-br from-[#0b0717] via-[#120a24] to-[#0b0717]">
 
         {/* Navbar  */}
         <Navbar/>
@@ -28,7 +23,6 @@ export default function RootLayout({
 
         <Footer/>
 
-      </body>
-    </html>
+      </div>
   )
 }

@@ -1,7 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 
+
 function GlassDesc({ children, className = "" }) {
+
+  
   return (
     <div className={`relative ${className}`}>
       <div
